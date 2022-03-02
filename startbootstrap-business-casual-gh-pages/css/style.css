@@ -1,0 +1,19 @@
+.about-heading .about-heading-content {
+    color: #fff
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;            
+    width: 70%;
+    margin: auto;    
+}
+    
+.image-style {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
